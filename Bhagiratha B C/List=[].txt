@@ -1,0 +1,4 @@
+list=[]
+l1=[]
+l2=list()
+print(L1,L2)

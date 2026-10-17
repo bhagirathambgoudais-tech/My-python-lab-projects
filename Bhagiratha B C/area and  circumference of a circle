@@ -1,0 +1,4 @@
+Radius=int(input("Enter a circles radius"))
+Area=2*3.14*Radius
+print("Area of the circle=",Area)
+

@@ -1,0 +1,19 @@
+name=input("Enter your name=")
+USN=int(input("Enter your USN="))
+
+marks1=float(input("Enter your marks in subject =1"))
+marks2=float(input("Enter your marks in subject =2"))
+marks3=float(input("Enter your marks in subject =3"))
+
+Total_Marks=marks1+marks2+marks3
+Avearage_Marks=Total_Marks/3
+
+print(f"/n-----Student Details-----")
+print(f"name of student={name}")
+print(f"USN of student={USN}")
+print(f"course 1         :{marks1:2f}")
+print(f"course 2         :{marks2:2f}")
+print(f"course 3         :{marks3:2f}")
+
+print(f"Total Marks      :{Total_Marks:2f}")
+print(f"Average Marks    :{Average_Marks:2f}")
